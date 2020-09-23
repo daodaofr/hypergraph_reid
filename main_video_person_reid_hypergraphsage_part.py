@@ -232,13 +232,13 @@ def main():
                 state_dict = model.module.state_dict()
             else:
                 state_dict = model.state_dict()
-            '''
+            
             save_checkpoint({
                 'state_dict': state_dict,
                 'rank1': rank1,
                 'epoch': epoch,
             }, is_best, osp.join(args.save_dir, 'checkpoint_ep' + str(epoch+1) + '.pth.tar'))
-            '''
+            
 
     elapsed = round(time.time() - start_time)
     elapsed = str(datetime.timedelta(seconds=elapsed))
