@@ -39,7 +39,8 @@ mars/
 
 ### Usage
 To train the model, please run
-sh run_hypergraphsage_part.sh
+
+    sh run_hypergraphsage_part.sh
 
 ### Performance
 Normaly the model achieves 85.8%  mAP and 89.5% rank-1 accuracy. According to my training log, the best model achieves 86.2% mAP and 90.0% top-1 accuracy. This may need adjustion in hyperparameters.
