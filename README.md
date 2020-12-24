@@ -43,7 +43,9 @@ To train the model, please run
     sh run_hypergraphsage_part.sh
 
 ### Performance
-Normaly the model achieves 85.8%  mAP and 89.5% rank-1 accuracy. According to my training log, the best model achieves 86.2% mAP and 90.0% top-1 accuracy. This may need adjustion in hyperparameters.
+Trained model [[Google]](https://drive.google.com/file/d/1EMnu0yhXN1mTjnU0HEnLN5DbLA0nUiBF/view?usp=sharing)
+
+The shared trained model achieves 84.8%  mAP and 88.8% rank-1 accuracy. According to my training log, the best model achieves 86.2% mAP and 90.0% top-1 accuracy. This may need adjustion in hyperparameters.
 
 ### Acknowledgements
 Our code is developed based on Video-Person-ReID (https://github.com/jiyanggao/Video-Person-ReID). 
